@@ -3,6 +3,7 @@ import { app } from './app';
 
 const start = async () => {
 	console.log('start up.........---- ');
+	console.log('start up 2');
 
 	try {
 		if (!process.env.JWT_KEY) {
