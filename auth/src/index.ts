@@ -2,7 +2,12 @@ import mongoose from 'mongoose';
 import { app } from './app';
 
 const start = async () => {
+<<<<<<< HEAD
+	console.log('start up.........---- ');
+	console.log('start up 2');
+=======
 	console.log('start up.....-- ');
+>>>>>>> 0c118ea5ef69a1d18606244d6a5c5a595663f774
 
 	try {
 		if (!process.env.JWT_KEY) {
