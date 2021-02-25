@@ -5,8 +5,7 @@ const axiosClient = ({ req }) => {
 		// must be on server as window exists only ion browser
 		// must declare domain to be ingrsss-nginx
 		return axios.create({
-			baseURL:
-				'http://ingress-nginx-controller.ingress-nginx.svc.cluster.local',
+			baseURL: 'www.ticketing-course.org.uk',
 			headers: req.headers,
 		});
 	} else {
